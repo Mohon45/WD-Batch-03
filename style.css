@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#heading {
+  background-color: red;
+}
+.text-align {
+  width: 50%;
+  text-align: center;
+  /* margin: 50px 0 0 0; */
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 20px;
+}
+.text-align tr:hover {
+  background-color: #eda;
+}
+.text-align tr td {
+  padding: 20px 0 20px 0;
+}
