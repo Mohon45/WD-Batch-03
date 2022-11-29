@@ -1,0 +1,78 @@
+body {
+  background-color: #e5e5e5;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  margin: 0;
+}
+
+/* header design start  */
+.header-main {
+  background-color: #562eff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+.header-body {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+}
+.nav-item {
+  list-style: none;
+  display: flex;
+}
+.nav-title {
+  font-size: 50px;
+  font-family: "Rubik Microbe", cursive;
+}
+.nav-item li {
+  margin-left: 30px;
+}
+.nav-item li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.right-nav-section {
+  margin-left: 400px;
+}
+.profile-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.list-item {
+  padding-top: 13px;
+}
+
+/* header design end  */
+
+/* main section design start */
+.main-body {
+  width: 60%;
+  margin: 0 auto;
+  background-color: white;
+  margin-top: 30px;
+  padding: 20px 0 0 30px;
+}
+.top-player h1 {
+  color: #562eff;
+}
+.single-palyer {
+  display: flex;
+}
+.single-palyer img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.all-players {
+  display: grid;
+  grid-template-columns: repeat(3, 4fr);
+  grid-gap: 20px;
+}
+/* main section design end */
