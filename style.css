@@ -1,0 +1,119 @@
+body {
+  /* background-color: red; */
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  /* background-image: url("images/background-image.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+h1 {
+  margin: 0;
+}
+
+/* 1st section design start */
+.main-section {
+  display: flex;
+}
+.section-title {
+  font-size: 4rem;
+}
+.left-side {
+  margin-left: 4rem;
+  margin-top: 6rem;
+}
+.spacial-title {
+  color: #ff468f;
+}
+.sub-title {
+  font-size: 1.4rem;
+}
+.left-side p {
+  width: 600px;
+  color: rgba(6, 0, 0, 0.626);
+  text-align: justify;
+}
+.right-side {
+  margin-left: 50px;
+}
+.right-side img {
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.btn-style {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(to right, #6d47db, #ff418c);
+  font-size: 1.2rem;
+  padding: 8px 30px;
+  border-radius: 8px;
+}
+/* 1st section design end */
+
+/* second section design start */
+.second-main-section {
+  display: flex;
+  margin-top: 4rem;
+}
+.second-left-side img {
+  width: 80%;
+  margin-left: 4rem;
+}
+.second-right-side {
+  width: 50%;
+  margin-top: 3rem;
+}
+.second-right-side p {
+  width: 600px;
+  color: rgba(6, 0, 0, 0.626);
+  text-align: justify;
+}
+/* second section design end */
+
+/* experience section design start */
+.experiences {
+  margin: 100px 0 100px 0;
+}
+.experiences-section-title {
+  font-size: 3.5rem;
+}
+.experience-main-div {
+  margin-top: 50px;
+  display: flex;
+}
+.left-side-experience {
+  margin: 0 40px 0 80px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 50px 30px;
+  border-left: 7px solid #ff6347;
+  border-top-right-radius: 60px;
+}
+.right-side-experience {
+  margin: 0 80px 0 40px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 50px 30px;
+  border-left: 7px solid #0000ff;
+  border-top-right-radius: 60px;
+}
+.experience-title {
+  font-size: 2.5rem;
+}
+.experience-sub-title {
+  font-size: 1.4rem;
+  color: orange;
+}
+.experience-p {
+  color: rgba(9, 1, 1, 0.734);
+}
+/* experience section design end */
+
+/* footer design start */
+.footer {
+  margin: 50px 0 30px 0;
+}
+.footer p {
+  text-align: center;
+  color: rgba(9, 1, 1, 0.734);
+}
+/* footer design end */
