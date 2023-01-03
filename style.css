@@ -1,0 +1,39 @@
+body {
+  /* background-color: aqua; */
+}
+
+.overflow {
+  background-color: blueviolet;
+  width: 200px;
+  height: 200px;
+  /* overflow: scroll; */
+  overflow-y: scroll;
+}
+.overflow2 {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+.overflow2:hover {
+  background-color: brown;
+  /* overflow: visible; */
+}
+
+.effect {
+  background-color: blue;
+  width: 300px;
+  height: 300px;
+}
+.inner {
+  width: 300px;
+  height: 300px;
+  background-color: indianred;
+  /* transform: scale(0.8); */
+  transition: width 2s;
+}
+.inner:hover {
+  /* transform: scale(0.8); */
+  /* transform: rotate(45deg); */
+  width: 500px;
+}
